@@ -1,0 +1,166 @@
+{
+  explainVersion: '1',
+  queryPlanner: {
+    namespace: 'Actors.Voice-actors',
+    parsedQuery: {
+      Edad: {
+        '$gt': 50
+      }
+    },
+    indexFilterSet: false,
+    queryHash: '4BB99261',
+    planCacheShapeHash: '4BB99261',
+    planCacheKey: 'ABA1D4D5',
+    optimizationTimeMillis: 0,
+    maxIndexedOrSolutionsReached: false,
+    maxIndexedAndSolutionsReached: false,
+    maxScansToExplodeReached: false,
+    prunedSimilarIndexes: false,
+    winningPlan: {
+      isCached: false,
+      stage: 'PROJECTION_SIMPLE',
+      transformBy: {
+        _id: 0,
+        Nombre: 1,
+        Edad: 1,
+        Nacionalidad: 1,
+        Patrimonio: 1
+      },
+      inputStage: {
+        stage: 'SORT',
+        sortPattern: {
+          Edad: -1
+        },
+        memLimit: 104857600,
+        limitAmount: 10,
+        type: 'simple',
+        inputStage: {
+          stage: 'COLLSCAN',
+          filter: {
+            Edad: {
+              '$gt': 50
+            }
+          },
+          direction: 'forward'
+        }
+      }
+    },
+    rejectedPlans: []
+  },
+  executionStats: {
+    executionSuccess: true,
+    nReturned: 8,
+    executionTimeMillis: 0,
+    totalKeysExamined: 0,
+    totalDocsExamined: 24,
+    executionStages: {
+      isCached: false,
+      stage: 'PROJECTION_SIMPLE',
+      nReturned: 8,
+      executionTimeMillisEstimate: 0,
+      works: 34,
+      advanced: 8,
+      needTime: 25,
+      needYield: 0,
+      saveState: 0,
+      restoreState: 0,
+      isEOF: 1,
+      transformBy: {
+        _id: 0,
+        Nombre: 1,
+        Edad: 1,
+        Nacionalidad: 1,
+        Patrimonio: 1
+      },
+      inputStage: {
+        stage: 'SORT',
+        nReturned: 8,
+        executionTimeMillisEstimate: 0,
+        works: 34,
+        advanced: 8,
+        needTime: 25,
+        needYield: 0,
+        saveState: 0,
+        restoreState: 0,
+        isEOF: 1,
+        sortPattern: {
+          Edad: -1
+        },
+        memLimit: 104857600,
+        limitAmount: 10,
+        type: 'simple',
+        totalDataSizeSorted: 4451,
+        usedDisk: false,
+        spills: 0,
+        spilledDataStorageSize: 0,
+        inputStage: {
+          stage: 'COLLSCAN',
+          filter: {
+            Edad: {
+              '$gt': 50
+            }
+          },
+          nReturned: 8,
+          executionTimeMillisEstimate: 0,
+          works: 25,
+          advanced: 8,
+          needTime: 16,
+          needYield: 0,
+          saveState: 0,
+          restoreState: 0,
+          isEOF: 1,
+          direction: 'forward',
+          docsExamined: 24
+        }
+      }
+    }
+  },
+  queryShapeHash: '9156670420AF6224553E43693E65310891E07E976DF4BE688ED95F3E75E66BC3',
+  command: {
+    find: 'Voice-actors',
+    filter: {
+      Edad: {
+        '$gt': 50
+      }
+    },
+    sort: {
+      Edad: -1
+    },
+    projection: {
+      _id: 0,
+      Nombre: 1,
+      Edad: 1,
+      Nacionalidad: 1,
+      Patrimonio: 1
+    },
+    limit: 10,
+    '$db': 'Actors'
+  },
+  serverInfo: {
+    host: 'a81de1b364be',
+    port: 30001,
+    version: '8.0.30',
+    gitVersion: '360770fbc9b6a893748150d2ab2799e119b9fac9'
+  },
+  serverParameters: {
+    internalQueryFacetBufferSizeBytes: 104857600,
+    internalQueryFacetMaxOutputDocSizeBytes: 104857600,
+    internalLookupStageIntermediateDocumentMaxSizeBytes: 104857600,
+    internalDocumentSourceGroupMaxMemoryBytes: 104857600,
+    internalQueryMaxBlockingSortMemoryUsageBytes: 104857600,
+    internalQueryProhibitBlockingMergeOnMongoS: 0,
+    internalQueryMaxAddToSetBytes: 104857600,
+    internalDocumentSourceSetWindowFieldsMaxMemoryBytes: 104857600,
+    internalQueryFrameworkControl: 'trySbeRestricted',
+    internalQueryPlannerIgnoreIndexWithCollationForRegex: 1
+  },
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1789112238, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1789112238, i: 1 })
+}

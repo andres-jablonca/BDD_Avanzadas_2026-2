@@ -1,0 +1,196 @@
+{
+  explainVersion: '1',
+  queryPlanner: {
+    namespace: 'Actors.Voice-actors',
+    parsedQuery: {
+      Edad: {
+        '$gt': 50
+      }
+    },
+    indexFilterSet: false,
+    queryHash: '4BB99261',
+    planCacheShapeHash: '4BB99261',
+    planCacheKey: '4EA0FE8E',
+    optimizationTimeMillis: 0,
+    maxIndexedOrSolutionsReached: false,
+    maxIndexedAndSolutionsReached: false,
+    maxScansToExplodeReached: false,
+    prunedSimilarIndexes: false,
+    winningPlan: {
+      isCached: false,
+      stage: 'LIMIT',
+      limitAmount: 10,
+      inputStage: {
+        stage: 'PROJECTION_SIMPLE',
+        transformBy: {
+          _id: 0,
+          Nombre: 1,
+          Edad: 1,
+          Nacionalidad: 1,
+          Patrimonio: 1
+        },
+        inputStage: {
+          stage: 'FETCH',
+          inputStage: {
+            stage: 'IXSCAN',
+            keyPattern: {
+              Edad: 1
+            },
+            indexName: 'idx_edad',
+            isMultiKey: false,
+            multiKeyPaths: {
+              Edad: []
+            },
+            isUnique: false,
+            isSparse: false,
+            isPartial: false,
+            indexVersion: 2,
+            direction: 'backward',
+            indexBounds: {
+              Edad: [
+                '[inf.0, 50)'
+              ]
+            }
+          }
+        }
+      }
+    },
+    rejectedPlans: []
+  },
+  executionStats: {
+    executionSuccess: true,
+    nReturned: 8,
+    executionTimeMillis: 3,
+    totalKeysExamined: 8,
+    totalDocsExamined: 8,
+    executionStages: {
+      isCached: false,
+      stage: 'LIMIT',
+      nReturned: 8,
+      executionTimeMillisEstimate: 0,
+      works: 9,
+      advanced: 8,
+      needTime: 0,
+      needYield: 0,
+      saveState: 0,
+      restoreState: 0,
+      isEOF: 1,
+      limitAmount: 10,
+      inputStage: {
+        stage: 'PROJECTION_SIMPLE',
+        nReturned: 8,
+        executionTimeMillisEstimate: 0,
+        works: 9,
+        advanced: 8,
+        needTime: 0,
+        needYield: 0,
+        saveState: 0,
+        restoreState: 0,
+        isEOF: 1,
+        transformBy: {
+          _id: 0,
+          Nombre: 1,
+          Edad: 1,
+          Nacionalidad: 1,
+          Patrimonio: 1
+        },
+        inputStage: {
+          stage: 'FETCH',
+          nReturned: 8,
+          executionTimeMillisEstimate: 0,
+          works: 9,
+          advanced: 8,
+          needTime: 0,
+          needYield: 0,
+          saveState: 0,
+          restoreState: 0,
+          isEOF: 1,
+          docsExamined: 8,
+          alreadyHasObj: 0,
+          inputStage: {
+            stage: 'IXSCAN',
+            nReturned: 8,
+            executionTimeMillisEstimate: 0,
+            works: 9,
+            advanced: 8,
+            needTime: 0,
+            needYield: 0,
+            saveState: 0,
+            restoreState: 0,
+            isEOF: 1,
+            keyPattern: {
+              Edad: 1
+            },
+            indexName: 'idx_edad',
+            isMultiKey: false,
+            multiKeyPaths: {
+              Edad: []
+            },
+            isUnique: false,
+            isSparse: false,
+            isPartial: false,
+            indexVersion: 2,
+            direction: 'backward',
+            indexBounds: {
+              Edad: [
+                '[inf.0, 50)'
+              ]
+            },
+            keysExamined: 8,
+            seeks: 1,
+            dupsTested: 0,
+            dupsDropped: 0
+          }
+        }
+      }
+    }
+  },
+  queryShapeHash: '9156670420AF6224553E43693E65310891E07E976DF4BE688ED95F3E75E66BC3',
+  command: {
+    find: 'Voice-actors',
+    filter: {
+      Edad: {
+        '$gt': 50
+      }
+    },
+    sort: {
+      Edad: -1
+    },
+    projection: {
+      _id: 0,
+      Nombre: 1,
+      Edad: 1,
+      Nacionalidad: 1,
+      Patrimonio: 1
+    },
+    limit: 10,
+    '$db': 'Actors'
+  },
+  serverInfo: {
+    host: 'a81de1b364be',
+    port: 30001,
+    version: '8.0.30',
+    gitVersion: '360770fbc9b6a893748150d2ab2799e119b9fac9'
+  },
+  serverParameters: {
+    internalQueryFacetBufferSizeBytes: 104857600,
+    internalQueryFacetMaxOutputDocSizeBytes: 104857600,
+    internalLookupStageIntermediateDocumentMaxSizeBytes: 104857600,
+    internalDocumentSourceGroupMaxMemoryBytes: 104857600,
+    internalQueryMaxBlockingSortMemoryUsageBytes: 104857600,
+    internalQueryProhibitBlockingMergeOnMongoS: 0,
+    internalQueryMaxAddToSetBytes: 104857600,
+    internalDocumentSourceSetWindowFieldsMaxMemoryBytes: 104857600,
+    internalQueryFrameworkControl: 'trySbeRestricted',
+    internalQueryPlannerIgnoreIndexWithCollationForRegex: 1
+  },
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1789112638, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1789112638, i: 1 })
+}
