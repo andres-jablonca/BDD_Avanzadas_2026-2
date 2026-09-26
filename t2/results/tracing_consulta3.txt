@@ -1,0 +1,44 @@
+cqlsh:actors> SELECT nombre_personaje,
+          ...        produccion,
+          ...        tipo_produccion,
+          ...        rol,
+          ...        apariciones,
+          ...        generos
+          ... FROM personajes_por_actor_rol
+          ... WHERE actor_id = 15 AND rol = 'Principal'
+          ... ORDER BY apariciones DESC
+          ... LIMIT 10;
+
+ nombre_personaje | produccion            | tipo_produccion | rol       | apariciones | generos
+------------------+-----------------------+-----------------+-----------+-------------+---------------------------------------------
+  Commander Steel |          Galaxy Force |     Profesional | Principal |         142 |               {'Accion', 'Ciencia Ficcion'}
+          Gandalf | The Lord of the Rings |     Profesional | Principal |         107 | {'Aventura', 'Ciencia Ficcion', 'Fantasía'}
+
+(2 rows)
+
+Tracing session: d4b96b80-b95b-11f1-bd67-8bfceb799ff6
+
+ activity                                                                                                                                                                                                                                                                      | timestamp                  | source     | source_elapsed | client
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------+------------+----------------+-----------
+                                                                                                                                                                                                                                                            Execute CQL3 query | 2026-09-26 03:39:08.760000 | 172.20.0.2 |              0 | 127.0.0.1
+ Parsing SELECT nombre_personaje,\n       produccion,\n       tipo_produccion,\n       rol,\n       apariciones,\n       generos\nFROM personajes_por_actor_rol\nWHERE actor_id = 15 AND rol = 'Principal'\nORDER BY apariciones DESC\nLIMIT 10; [Native-Transport-Requests-1] | 2026-09-26 03:39:08.870000 | 172.20.0.2 |         129284 | 127.0.0.1
+                                                                                                                                                                                                                             Preparing statement [Native-Transport-Requests-1] | 2026-09-26 03:39:09.038000 | 172.20.0.2 |         296608 | 127.0.0.1
+                                                                                                                                                                                                    Executing single-partition query on personajes_por_actor_rol [ReadStage-2] | 2026-09-26 03:39:09.296000 | 172.20.0.2 |         554984 | 127.0.0.1
+                                                                                                                                                                                                                                    Acquiring sstable references [ReadStage-2] | 2026-09-26 03:39:09.296001 | 172.20.0.2 |         555142 | 127.0.0.1
+                                                                                                                                                    speculating read retry on Full(/172.20.0.3:7000,(-3619408075340304571,-3498283136671628651]) [Native-Transport-Requests-1] | 2026-09-26 03:39:09.313000 | 172.20.0.2 |         571701 | 127.0.0.1
+                                                                                                                                                                                       Skipped 0/0 non-slice-intersecting sstables, included 0 due to tombstones [ReadStage-2] | 2026-09-26 03:39:09.331000 | 172.20.0.2 |         589884 | 127.0.0.1
+                                                                                                                                                                       Sending READ_REQ message to cassandra3/172.20.0.3:7000 message size 171 bytes [Messaging-EventLoop-3-2] | 2026-09-26 03:39:09.338000 | 172.20.0.2 |         596332 | 127.0.0.1
+                                                                                                                                                                                                    READ_REQ message received from /172.20.0.2:7000 [Messaging-EventLoop-3-12] | 2026-09-26 03:39:09.358000 | 172.20.0.3 |           2094 | 127.0.0.1
+                                                                                                                                                                                                    Executing single-partition query on personajes_por_actor_rol [ReadStage-1] | 2026-09-26 03:39:09.391000 | 172.20.0.3 |          36103 | 127.0.0.1
+                                                                                                                                                                                                                                    Acquiring sstable references [ReadStage-1] | 2026-09-26 03:39:09.392000 | 172.20.0.3 |          36297 | 127.0.0.1
+                                                                                                                                                                                       Skipped 0/0 non-slice-intersecting sstables, included 0 due to tombstones [ReadStage-1] | 2026-09-26 03:39:09.394000 | 172.20.0.3 |          38271 | 127.0.0.1
+                                                                                                                                                                                                                       Merged data from memtables and 0 sstables [ReadStage-1] | 2026-09-26 03:39:09.405000 | 172.20.0.3 |          49468 | 127.0.0.1
+                                                                                                                                                                                                                          Read 2 live rows and 0 tombstone cells [ReadStage-1] | 2026-09-26 03:39:09.405001 | 172.20.0.3 |          49603 | 127.0.0.1
+                                                                                                                                                                                                                          Enqueuing response to /172.20.0.2:7000 [ReadStage-1] | 2026-09-26 03:39:09.407000 | 172.20.0.3 |          51569 | 127.0.0.1
+                                                                                                                                                                       Sending READ_RSP message to cassandra1/172.20.0.2:7000 message size 258 bytes [Messaging-EventLoop-3-1] | 2026-09-26 03:39:09.409000 | 172.20.0.3 |          53920 | 127.0.0.1
+                                                                                                                                                                                                    READ_RSP message received from /172.20.0.3:7000 [Messaging-EventLoop-3-12] | 2026-09-26 03:39:09.420000 | 172.20.0.2 |         678774 | 127.0.0.1
+                                                                                                                                                                                                            Processing response from /172.20.0.3:7000 [RequestResponseStage-3] | 2026-09-26 03:39:09.420001 | 172.20.0.2 |         679038 | 127.0.0.1
+                                                                                                                                                                                                                       Merged data from memtables and 0 sstables [ReadStage-2] | 2026-09-26 03:39:09.443000 | 172.20.0.2 |         698813 | 127.0.0.1
+                                                                                                                                                                                                                          Read 2 live rows and 0 tombstone cells [ReadStage-2] | 2026-09-26 03:39:09.448000 | 172.20.0.2 |         707162 | 127.0.0.1
+                                                                                                                                                                                                                                                              Request complete | 2026-09-26 03:39:09.540644 | 172.20.0.2 |         780644 | 127.0.0.1
+

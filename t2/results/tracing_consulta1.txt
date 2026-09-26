@@ -1,0 +1,43 @@
+cqlsh:actors> SELECT nombre, nacionalidad, edad, idiomas
+          ... FROM actor_por_id
+          ... WHERE actor_id = 10
+          ... LIMIT 10;
+
+ nombre           | nacionalidad | edad | idiomas
+------------------+--------------+------+----------------------------------
+ Daniela Castillo |       Mexico |   26 | {'Espanol', 'Frances', 'Ingles'}
+
+(1 rows)
+
+Tracing session: 69e42d40-b95b-11f1-bd67-8bfceb799ff6
+
+ activity                                                                                                                             | timestamp                  | source     | source_elapsed | client
+--------------------------------------------------------------------------------------------------------------------------------------+----------------------------+------------+----------------+-----------
+                                                                                                                   Execute CQL3 query | 2026-09-26 03:36:09.607000 | 172.20.0.2 |              0 | 127.0.0.1
+  Parsing SELECT nombre, nacionalidad, edad, idiomas\nFROM actor_por_id\nWHERE actor_id = 10\nLIMIT 10; [Native-Transport-Requests-1] | 2026-09-26 03:36:09.888000 | 172.20.0.2 |         309069 | 127.0.0.1
+                                                                                    Preparing statement [Native-Transport-Requests-1] | 2026-09-26 03:36:10.039000 | 172.20.0.2 |         460514 | 127.0.0.1
+                                                                     reading data from /172.20.0.3:7000 [Native-Transport-Requests-1] | 2026-09-26 03:36:10.338000 | 172.20.0.2 |         744806 | 127.0.0.1
+                              Sending READ_REQ message to cassandra3/172.20.0.3:7000 message size 173 bytes [Messaging-EventLoop-3-2] | 2026-09-26 03:36:10.428000 | 172.20.0.2 |         849617 | 127.0.0.1
+ speculating read retry on Full(cassandra1/172.20.0.2:7000,(-6860286835604270246,-6685176976985503840]) [Native-Transport-Requests-1] | 2026-09-26 03:36:10.446000 | 172.20.0.2 |         867756 | 127.0.0.1
+                              Sending READ_REQ message to cassandra1/172.20.0.2:7000 message size 173 bytes [Messaging-EventLoop-3-3] | 2026-09-26 03:36:10.457000 | 172.20.0.2 |         878226 | 127.0.0.1
+                                                           READ_REQ message received from /172.20.0.2:7000 [Messaging-EventLoop-3-12] | 2026-09-26 03:36:10.510000 | 172.20.0.3 |           3776 | 127.0.0.1
+                                                            READ_REQ message received from /172.20.0.2:7000 [Messaging-EventLoop-3-6] | 2026-09-26 03:36:10.539000 | 172.20.0.2 |         960887 | 127.0.0.1
+                                                                       Executing single-partition query on actor_por_id [ReadStage-2] | 2026-09-26 03:36:10.545000 | 172.20.0.2 |         966739 | 127.0.0.1
+                                                                                           Acquiring sstable references [ReadStage-2] | 2026-09-26 03:36:10.545001 | 172.20.0.2 |         966862 | 127.0.0.1
+                                                                       Executing single-partition query on actor_por_id [ReadStage-1] | 2026-09-26 03:36:10.591000 | 172.20.0.3 |          91000 | 127.0.0.1
+                                                                                           Acquiring sstable references [ReadStage-1] | 2026-09-26 03:36:10.594000 | 172.20.0.3 |          93684 | 127.0.0.1
+                                              Skipped 0/0 non-slice-intersecting sstables, included 0 due to tombstones [ReadStage-2] | 2026-09-26 03:36:10.594000 | 172.20.0.2 |        1015888 | 127.0.0.1
+                                              Skipped 0/0 non-slice-intersecting sstables, included 0 due to tombstones [ReadStage-1] | 2026-09-26 03:36:10.608000 | 172.20.0.3 |         107839 | 127.0.0.1
+                                                                              Merged data from memtables and 0 sstables [ReadStage-1] | 2026-09-26 03:36:10.642000 | 172.20.0.3 |         141994 | 127.0.0.1
+                                                                                 Read 1 live rows and 0 tombstone cells [ReadStage-1] | 2026-09-26 03:36:10.643000 | 172.20.0.3 |         143239 | 127.0.0.1
+                                                                                 Enqueuing response to /172.20.0.2:7000 [ReadStage-1] | 2026-09-26 03:36:10.646000 | 172.20.0.3 |         145955 | 127.0.0.1
+                              Sending READ_RSP message to cassandra1/172.20.0.2:7000 message size 126 bytes [Messaging-EventLoop-3-1] | 2026-09-26 03:36:10.660000 | 172.20.0.3 |         160455 | 127.0.0.1
+                                                                              Merged data from memtables and 0 sstables [ReadStage-2] | 2026-09-26 03:36:10.678000 | 172.20.0.2 |        1099742 | 127.0.0.1
+                                                                                 Read 1 live rows and 0 tombstone cells [ReadStage-2] | 2026-09-26 03:36:10.688000 | 172.20.0.2 |        1109136 | 127.0.0.1
+                                                           READ_RSP message received from /172.20.0.3:7000 [Messaging-EventLoop-3-12] | 2026-09-26 03:36:10.693000 | 172.20.0.2 |        1114329 | 127.0.0.1
+                                                                   Processing response from /172.20.0.3:7000 [RequestResponseStage-3] | 2026-09-26 03:36:10.695000 | 172.20.0.2 |        1116586 | 127.0.0.1
+                                                                                 Enqueuing response to /172.20.0.2:7000 [ReadStage-2] | 2026-09-26 03:36:10.696000 | 172.20.0.2 |        1117722 | 127.0.0.1
+                              Sending READ_RSP message to cassandra1/172.20.0.2:7000 message size 126 bytes [Messaging-EventLoop-3-3] | 2026-09-26 03:36:10.721000 | 172.20.0.2 |        1142570 | 127.0.0.1
+                                                            READ_RSP message received from /172.20.0.2:7000 [Messaging-EventLoop-3-6] | 2026-09-26 03:36:10.779000 | 172.20.0.2 |        1200313 | 127.0.0.1
+                                                                   Processing response from /172.20.0.2:7000 [RequestResponseStage-2] | 2026-09-26 03:36:10.780000 | 172.20.0.2 |        1201428 | 127.0.0.1
+                                                                                                                     Request complete | 2026-09-26 03:36:10.828290 | 172.20.0.2 |        1221290 | 127.0.0.1

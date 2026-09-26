@@ -1,0 +1,34 @@
+cqlsh:actors> SELECT nombre, fecha_nacimiento, patrimonio
+          ... FROM actor_por_id
+          ... WHERE nacionalidad = 'Chile' AND edad > 40
+          ... LIMIT 10
+          ... ALLOW FILTERING;
+
+ nombre             | fecha_nacimiento | patrimonio
+--------------------+------------------+------------
+  Ricardo Sepulveda |       1968-03-30 |    1750000
+ Patricia Contreras |       1965-11-23 |    2100000
+      Diego Morales |       1971-06-05 |    1200000
+
+(3 rows)
+
+Tracing session: ceda7870-b95c-11f1-bd67-8bfceb799ff6
+
+ activity                                                                                                                                                                     | timestamp                  | source     | source_elapsed | client
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------+------------+----------------+-----------
+                                                                                                                                                           Execute CQL3 query | 2026-09-26 03:46:08.408000 | 172.20.0.2 |              0 | 127.0.0.1
+ Parsing SELECT nombre, fecha_nacimiento, patrimonio\nFROM actor_por_id\nWHERE nacionalidad = 'Chile' AND edad > 40\nLIMIT 10\nALLOW FILTERING; [Native-Transport-Requests-1] | 2026-09-26 03:46:08.485000 | 172.20.0.2 |          94486 | 127.0.0.1
+                                                                                                                            Preparing statement [Native-Transport-Requests-1] | 2026-09-26 03:46:08.659000 | 172.20.0.2 |         270385 | 127.0.0.1
+                                                                                                                      Computing ranges to query [Native-Transport-Requests-1] | 2026-09-26 03:46:08.958000 | 172.20.0.2 |         569173 | 127.0.0.1
+                                                  Submitting range requests on 193 ranges with a concurrency of 1 (0.0 rows per range expected) [Native-Transport-Requests-1] | 2026-09-26 03:46:08.990000 | 172.20.0.2 |         601917 | 127.0.0.1
+                                                         Enqueuing request to Full(/172.20.0.3:7000,(9176072005991009612,-9182843560071356607]) [Native-Transport-Requests-1] | 2026-09-26 03:46:09.109000 | 172.20.0.2 |         720534 | 127.0.0.1
+                                                                                                          Submitted 1 concurrent range requests [Native-Transport-Requests-1] | 2026-09-26 03:46:09.152000 | 172.20.0.2 |         763171 | 127.0.0.1
+                                                                     Sending RANGE_REQ message to cassandra3/172.20.0.3:7000 message size 260 bytes [Messaging-EventLoop-3-2] | 2026-09-26 03:46:09.153000 | 172.20.0.2 |         764061 | 127.0.0.1
+                                                                                                  RANGE_REQ message received from /172.20.0.2:7000 [Messaging-EventLoop-3-12] | 2026-09-26 03:46:09.175000 | 172.20.0.3 |             53 | 127.0.0.1
+                                                                Executing seq scan across 0 sstables for (min(-9223372036854775808), min(-9223372036854775808)] [ReadStage-1] | 2026-09-26 03:46:09.175001 | 172.20.0.3 |            560 | 127.0.0.1
+                                                                                                                        Read 24 live rows and 0 tombstone cells [ReadStage-1] | 2026-09-26 03:46:09.197000 | 172.20.0.3 |          22480 | 127.0.0.1
+                                                                                                                         Enqueuing response to /172.20.0.2:7000 [ReadStage-1] | 2026-09-26 03:46:09.198000 | 172.20.0.3 |          22678 | 127.0.0.1
+                                                                     Sending RANGE_RSP message to cassandra1/172.20.0.2:7000 message size 304 bytes [Messaging-EventLoop-3-1] | 2026-09-26 03:46:09.198001 | 172.20.0.3 |          22945 | 127.0.0.1
+                                                                                                  RANGE_RSP message received from /172.20.0.3:7000 [Messaging-EventLoop-3-12] | 2026-09-26 03:46:09.228000 | 172.20.0.2 |         839696 | 127.0.0.1
+                                                                                                           Processing response from /172.20.0.3:7000 [RequestResponseStage-6] | 2026-09-26 03:46:09.243000 | 172.20.0.2 |         854677 | 127.0.0.1
+                                                                                                                                                             Request complete | 2026-09-26 03:46:09.722924 | 172.20.0.2 |        1314924 | 127.0.0.1

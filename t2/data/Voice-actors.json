@@ -1,0 +1,562 @@
+[
+  {
+    "nombre": "Valentina Rojas",
+    "nacionalidad": "Chile",
+    "fechaNacimiento": "2001-04-12",
+    "edad": 25,
+    "patrimonio": 180000,
+    "idiomas": ["Espanol", "Ingles"],
+    "personajes": [
+      {
+        "nombre": "Sofia Vega",
+        "produccion": "Guardianes del Pacifico",
+        "tipoProduccion": "Profesional",
+        "rol": "Principal",
+        "apariciones": 48,
+        "generos": ["Accion", "Aventura"]
+      },
+      {
+        "nombre": "Luna",
+        "produccion": "Bosque Magico",
+        "tipoProduccion": "Independiente",
+        "rol": "Secundario",
+        "apariciones": 16,
+        "generos": ["Fantasia", "Comedia"]
+      }
+    ]
+  },
+  {
+    "nombre": "Matias Fuentes",
+    "nacionalidad": "Chile",
+    "fechaNacimiento": "1999-08-20",
+    "edad": 27,
+    "patrimonio": 95000,
+    "idiomas": ["Espanol"],
+    "personajes": [
+      {
+        "nombre": "Tomas Guerrero",
+        "produccion": "Distrito Cero",
+        "tipoProduccion": "Profesional",
+        "rol": "Principal",
+        "apariciones": 35,
+        "generos": ["Accion", "Ciencia Ficcion"]
+      },
+      {
+        "nombre": "Nico",
+        "produccion": "Historias del Sur",
+        "tipoProduccion": "Independiente",
+        "rol": "Extra",
+        "apariciones": 7,
+        "generos": ["Drama"]
+      }
+    ]
+  },
+  {
+    "nombre": "Camila Soto",
+    "nacionalidad": "Chile",
+    "fechaNacimiento": "1989-02-14",
+    "edad": 37,
+    "patrimonio": 350000,
+    "idiomas": ["Espanol", "Ingles"],
+    "personajes": [
+      {
+        "nombre": "Elena Cruz",
+        "produccion": "Cronicas de Valparaiso",
+        "tipoProduccion": "Profesional",
+        "rol": "Principal",
+        "apariciones": 72,
+        "generos": ["Drama", "Misterio"]
+      },
+      {
+        "nombre": "Capitana Nova",
+        "produccion": "Nova Force",
+        "tipoProduccion": "Profesional",
+        "rol": "Secundario",
+        "apariciones": 28,
+        "generos": ["Accion", "Ciencia Ficcion"]
+      }
+    ]
+  },
+  {
+    "nombre": "Diego Morales",
+    "nacionalidad": "Chile",
+    "fechaNacimiento": "1971-06-05",
+    "edad": 55,
+    "patrimonio": 1200000,
+    "idiomas": ["Espanol", "Ingles"],
+    "personajes": [
+      {
+        "nombre": "General Salazar",
+        "produccion": "Frontera Final",
+        "tipoProduccion": "Profesional",
+        "rol": "Secundario",
+        "apariciones": 41,
+        "generos": ["Accion", "Drama"]
+      },
+      {
+        "nombre": "Don Ernesto",
+        "produccion": "Barrio Central",
+        "tipoProduccion": "Profesional",
+        "rol": "Principal",
+        "apariciones": 105,
+        "generos": ["Drama", "Comedia"]
+      }
+    ]
+  },
+  {
+    "nombre": "Patricia Contreras",
+    "nacionalidad": "Chile",
+    "fechaNacimiento": "1965-11-23",
+    "edad": 60,
+    "patrimonio": 2100000,
+    "idiomas": ["Espanol", "Portugues"],
+    "personajes": [
+      {
+        "nombre": "Abuela Teresa",
+        "produccion": "Familia del Sur",
+        "tipoProduccion": "Profesional",
+        "rol": "Principal",
+        "apariciones": 89,
+        "generos": ["Drama", "Comedia"]
+      },
+      {
+        "nombre": "Reina Amara",
+        "produccion": "Reinos Perdidos",
+        "tipoProduccion": "Profesional",
+        "rol": "Secundario",
+        "apariciones": 22,
+        "generos": ["Fantasia", "Aventura"]
+      }
+    ]
+  },
+  {
+    "nombre": "Ricardo Sepulveda",
+    "nacionalidad": "Chile",
+    "fechaNacimiento": "1968-03-30",
+    "edad": 58,
+    "patrimonio": 1750000,
+    "idiomas": ["Espanol"],
+    "personajes": [
+      {
+        "nombre": "Comandante Rios",
+        "produccion": "Operacion Condor",
+        "tipoProduccion": "Profesional",
+        "rol": "Principal",
+        "apariciones": 51,
+        "generos": ["Accion", "Suspenso"]
+      },
+      {
+        "nombre": "Alcalde Perez",
+        "produccion": "Villa Esperanza",
+        "tipoProduccion": "Profesional",
+        "rol": "Secundario",
+        "apariciones": 33,
+        "generos": ["Comedia"]
+      }
+    ]
+  },
+  {
+    "nombre": "Luciana Fernandez",
+    "nacionalidad": "Argentina",
+    "fechaNacimiento": "2003-07-17",
+    "edad": 23,
+    "patrimonio": 75000,
+    "idiomas": ["Espanol", "Ingles"],
+    "personajes": [
+      {
+        "nombre": "Mia Storm",
+        "produccion": "Cyber Hunters",
+        "tipoProduccion": "Profesional",
+        "rol": "Principal",
+        "apariciones": 39,
+        "generos": ["Accion", "Ciencia Ficcion"]
+      },
+      {
+        "nombre": "Sara",
+        "produccion": "Universidad Lunar",
+        "tipoProduccion": "Independiente",
+        "rol": "Secundario",
+        "apariciones": 12,
+        "generos": ["Comedia", "Romance"]
+      }
+    ]
+  },
+  {
+    "nombre": "Martin Acosta",
+    "nacionalidad": "Argentina",
+    "fechaNacimiento": "1980-01-09",
+    "edad": 46,
+    "patrimonio": 830000,
+    "idiomas": ["Espanol"],
+    "personajes": [
+      {
+        "nombre": "Victor Luna",
+        "produccion": "Detectives del Plata",
+        "tipoProduccion": "Profesional",
+        "rol": "Principal",
+        "apariciones": 67,
+        "generos": ["Misterio", "Drama"]
+      }
+    ]
+  },
+  {
+    "nombre": "Gabriela Torres",
+    "nacionalidad": "Argentina",
+    "fechaNacimiento": "1970-09-15",
+    "edad": 55,
+    "patrimonio": 1450000,
+    "idiomas": ["Espanol", "Italiano"],
+    "personajes": [
+      {
+        "nombre": "Selene",
+        "produccion": "Hijos de la Luna",
+        "tipoProduccion": "Profesional",
+        "rol": "Principal",
+        "apariciones": 80,
+        "generos": ["Fantasia", "Drama"]
+      },
+      {
+        "nombre": "Doctora Alma",
+        "produccion": "Proyecto Genesis",
+        "tipoProduccion": "Profesional",
+        "rol": "Secundario",
+        "apariciones": 31,
+        "generos": ["Ciencia Ficcion"]
+      }
+    ]
+  },
+  {
+    "nombre": "Alejandro Ramirez",
+    "nacionalidad": "Mexico",
+    "fechaNacimiento": "1993-12-04",
+    "edad": 32,
+    "patrimonio": 520000,
+    "idiomas": ["Espanol", "Ingles"],
+    "personajes": [
+      {
+        "nombre": "Max Fuego",
+        "produccion": "Heroes Urbanos",
+        "tipoProduccion": "Profesional",
+        "rol": "Principal",
+        "apariciones": 64,
+        "generos": ["Accion", "Aventura"]
+      }
+    ]
+  },
+  {
+    "nombre": "Daniela Castillo",
+    "nacionalidad": "Mexico",
+    "fechaNacimiento": "2000-03-28",
+    "edad": 26,
+    "patrimonio": 130000,
+    "idiomas": ["Espanol", "Ingles", "Frances"],
+    "personajes": [
+      {
+        "nombre": "Kira",
+        "produccion": "Shadow Warriors",
+        "tipoProduccion": "Profesional",
+        "rol": "Principal",
+        "apariciones": 44,
+        "generos": ["Accion", "Fantasia"]
+      },
+      {
+        "nombre": "Ana",
+        "produccion": "Cafe Estelar",
+        "tipoProduccion": "Independiente",
+        "rol": "Secundario",
+        "apariciones": 18,
+        "generos": ["Comedia", "Romance"]
+      }
+    ]
+  },
+  {
+    "nombre": "Roberto Mendoza",
+    "nacionalidad": "Mexico",
+    "fechaNacimiento": "1962-05-10",
+    "edad": 64,
+    "patrimonio": 3500000,
+    "idiomas": ["Espanol", "Ingles"],
+    "personajes": [
+      {
+        "nombre": "Maestro Ortega",
+        "produccion": "Camino del Guerrero",
+        "tipoProduccion": "Profesional",
+        "rol": "Principal",
+        "apariciones": 120,
+        "generos": ["Accion", "Drama"]
+      },
+      {
+        "nombre": "Rey Alfonso",
+        "produccion": "El Reino Dorado",
+        "tipoProduccion": "Profesional",
+        "rol": "Secundario",
+        "apariciones": 46,
+        "generos": ["Fantasia", "Aventura"]
+      }
+    ]
+  },
+  {
+    "nombre": "Carlos Navarro",
+    "nacionalidad": "Espana",
+    "fechaNacimiento": "1978-07-11",
+    "edad": 48,
+    "patrimonio": 1100000,
+    "idiomas": ["Espanol", "Ingles", "Catalan"],
+    "personajes": [
+      {
+        "nombre": "Raul Mendoza",
+        "produccion": "Codigo Negro",
+        "tipoProduccion": "Profesional",
+        "rol": "Principal",
+        "apariciones": 56,
+        "generos": ["Accion", "Suspenso"]
+      }
+    ]
+  },
+  {
+    "nombre": "Elena Martinez",
+    "nacionalidad": "Espana",
+    "fechaNacimiento": "1997-10-19",
+    "edad": 28,
+    "patrimonio": 270000,
+    "idiomas": ["Espanol", "Ingles", "Frances"],
+    "personajes": [
+      {
+        "nombre": "Iris",
+        "produccion": "Legado Arcano",
+        "tipoProduccion": "Profesional",
+        "rol": "Principal",
+        "apariciones": 38,
+        "generos": ["Fantasia", "Aventura"]
+      },
+      {
+        "nombre": "Laura",
+        "produccion": "Vida Universitaria",
+        "tipoProduccion": "Independiente",
+        "rol": "Secundario",
+        "apariciones": 11,
+        "generos": ["Comedia"]
+      }
+    ]
+  },
+  {
+    "nombre": "Emily Carter",
+    "nacionalidad": "Estados Unidos",
+    "fechaNacimiento": "2002-01-07",
+    "edad": 24,
+    "patrimonio": 310000,
+    "idiomas": ["Ingles", "Espanol"],
+    "personajes": [
+      {
+        "nombre": "Ashley Stone",
+        "produccion": "Battle Zone X",
+        "tipoProduccion": "Profesional",
+        "rol": "Principal",
+        "apariciones": 52,
+        "generos": ["Accion", "Ciencia Ficcion"]
+      },
+      {
+        "nombre": "Emma",
+        "produccion": "Little Adventures",
+        "tipoProduccion": "Profesional",
+        "rol": "Secundario",
+        "apariciones": 25,
+        "generos": ["Infantil", "Aventura"]
+      }
+    ]
+  },
+  {
+    "nombre": "Michael Thompson",
+    "nacionalidad": "Estados Unidos",
+    "fechaNacimiento": "1960-02-18",
+    "edad": 66,
+    "patrimonio": 8200000,
+    "idiomas": ["Ingles"],
+    "personajes": [
+      {
+        "nombre": "Commander Steel",
+        "produccion": "Galaxy Force",
+        "tipoProduccion": "Profesional",
+        "rol": "Principal",
+        "apariciones": 142,
+        "generos": ["Accion", "Ciencia Ficcion"]
+      },
+      {
+        "nombre": "Dr. Brooks",
+        "produccion": "The Last Experiment",
+        "tipoProduccion": "Profesional",
+        "rol": "Secundario",
+        "apariciones": 37,
+        "generos": ["Terror", "Ciencia Ficcion"]
+      }
+    ]
+  },
+  {
+    "nombre": "Sarah Williams",
+    "nacionalidad": "Estados Unidos",
+    "fechaNacimiento": "1984-06-25",
+    "edad": 42,
+    "patrimonio": 2300000,
+    "idiomas": ["Ingles", "Frances"],
+    "personajes": [
+      {
+        "nombre": "Diana Frost",
+        "produccion": "Frozen Planet",
+        "tipoProduccion": "Profesional",
+        "rol": "Principal",
+        "apariciones": 71,
+        "generos": ["Ciencia Ficcion", "Drama"]
+      }
+    ]
+  },
+  {
+    "nombre": "Aiko Tanaka",
+    "nacionalidad": "Japon",
+    "fechaNacimiento": "2004-05-13",
+    "edad": 22,
+    "patrimonio": 160000,
+    "idiomas": ["Japones", "Ingles"],
+    "personajes": [
+      {
+        "nombre": "Hikari",
+        "produccion": "Blade Spirit",
+        "tipoProduccion": "Profesional",
+        "rol": "Principal",
+        "apariciones": 49,
+        "generos": ["Accion", "Anime", "Fantasia"]
+      },
+      {
+        "nombre": "Miko",
+        "produccion": "School Dreams",
+        "tipoProduccion": "Profesional",
+        "rol": "Secundario",
+        "apariciones": 28,
+        "generos": ["Anime", "Comedia", "Romance"]
+      }
+    ]
+  },
+  {
+    "nombre": "Kenji Nakamura",
+    "nacionalidad": "Japon",
+    "fechaNacimiento": "1974-09-29",
+    "edad": 51,
+    "patrimonio": 4600000,
+    "idiomas": ["Japones", "Ingles"],
+    "personajes": [
+      {
+        "nombre": "Akira",
+        "produccion": "Samurai Eclipse",
+        "tipoProduccion": "Profesional",
+        "rol": "Principal",
+        "apariciones": 93,
+        "generos": ["Accion", "Anime", "Drama"]
+      }
+    ]
+  },
+  {
+    "nombre": "Yuki Sato",
+    "nacionalidad": "Japon",
+    "fechaNacimiento": "1990-12-16",
+    "edad": 35,
+    "patrimonio": 790000,
+    "idiomas": ["Japones", "Ingles"],
+    "personajes": [
+      {
+        "nombre": "Ren",
+        "produccion": "Neon City",
+        "tipoProduccion": "Profesional",
+        "rol": "Secundario",
+        "apariciones": 59,
+        "generos": ["Anime", "Ciencia Ficcion"]
+      }
+    ]
+  },
+  {
+    "nombre": "Lucas Oliveira",
+    "nacionalidad": "Brasil",
+    "fechaNacimiento": "1998-03-22",
+    "edad": 28,
+    "patrimonio": 220000,
+    "idiomas": ["Portugues", "Espanol"],
+    "personajes": [
+      {
+        "nombre": "Thiago",
+        "produccion": "Amazonia Extrema",
+        "tipoProduccion": "Profesional",
+        "rol": "Principal",
+        "apariciones": 36,
+        "generos": ["Accion", "Aventura"]
+      }
+    ]
+  },
+  {
+    "nombre": "Mariana Costa",
+    "nacionalidad": "Brasil",
+    "fechaNacimiento": "1982-08-03",
+    "edad": 44,
+    "patrimonio": 970000,
+    "idiomas": ["Portugues", "Espanol", "Ingles"],
+    "personajes": [
+      {
+        "nombre": "Isabela",
+        "produccion": "Segredos do Rio",
+        "tipoProduccion": "Profesional",
+        "rol": "Principal",
+        "apariciones": 77,
+        "generos": ["Drama", "Misterio"]
+      }
+    ]
+  },
+  {
+    "nombre": "Claire Dubois",
+    "nacionalidad": "Francia",
+    "fechaNacimiento": "1972-04-08",
+    "edad": 54,
+    "patrimonio": 2850000,
+    "idiomas": ["Frances", "Ingles", "Espanol"],
+    "personajes": [
+      {
+        "nombre": "Marie Laurent",
+        "produccion": "Paris Noir",
+        "tipoProduccion": "Profesional",
+        "rol": "Principal",
+        "apariciones": 65,
+        "generos": ["Misterio", "Drama"]
+      },
+      {
+        "nombre": "Madame Rouge",
+        "produccion": "Secret Agents",
+        "tipoProduccion": "Profesional",
+        "rol": "Secundario",
+        "apariciones": 30,
+        "generos": ["Accion", "Suspenso"]
+      }
+    ]
+  },
+  {
+    "nombre": "Sebastian Vargas",
+    "nacionalidad": "Colombia",
+    "fechaNacimiento": "1995-11-02",
+    "edad": 30,
+    "patrimonio": 410000,
+    "idiomas": ["Espanol", "Ingles"],
+    "personajes": [
+      {
+        "nombre": "Andres Leon",
+        "produccion": "Ciudad Salvaje",
+        "tipoProduccion": "Profesional",
+        "rol": "Principal",
+        "apariciones": 47,
+        "generos": ["Accion", "Drama"]
+      },
+      {
+        "nombre": "Mateo",
+        "produccion": "Historias de Barrio",
+        "tipoProduccion": "Independiente",
+        "rol": "Extra",
+        "apariciones": 9,
+        "generos": ["Drama"]
+      }
+    ]
+  }
+]
