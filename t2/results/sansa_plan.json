@@ -1,0 +1,198 @@
+[
+  {
+    "actor_id": 0,
+    "patrimonio_original": 180000,
+    "patrimonio_nuevo": 237600,
+    "rol": "Principal",
+    "apariciones": 3
+  },
+  {
+    "actor_id": 1,
+    "patrimonio_original": 95000,
+    "patrimonio_nuevo": 125400,
+    "rol": "Principal",
+    "apariciones": 3
+  },
+  {
+    "actor_id": 2,
+    "patrimonio_original": 350000,
+    "patrimonio_nuevo": 462000,
+    "rol": "Principal",
+    "apariciones": 3
+  },
+  {
+    "actor_id": 3,
+    "patrimonio_original": 1200000,
+    "patrimonio_nuevo": 1584000,
+    "rol": "Secundario",
+    "apariciones": 1
+  },
+  {
+    "actor_id": 4,
+    "patrimonio_original": 2100000,
+    "patrimonio_nuevo": 2772000,
+    "rol": "Secundario",
+    "apariciones": 1
+  },
+  {
+    "actor_id": 5,
+    "patrimonio_original": 1750000,
+    "patrimonio_nuevo": 2310000,
+    "rol": "Secundario",
+    "apariciones": 1
+  },
+  {
+    "actor_id": 6,
+    "patrimonio_original": 75000,
+    "patrimonio_nuevo": 99000,
+    "rol": "Principal",
+    "apariciones": 3
+  },
+  {
+    "actor_id": 7,
+    "patrimonio_original": 830000,
+    "patrimonio_nuevo": 1095600,
+    "rol": "Secundario",
+    "apariciones": 1
+  },
+  {
+    "actor_id": 8,
+    "patrimonio_original": 1450000,
+    "patrimonio_nuevo": 1914000,
+    "rol": "Secundario",
+    "apariciones": 1
+  },
+  {
+    "actor_id": 9,
+    "patrimonio_original": 520000,
+    "patrimonio_nuevo": 686400,
+    "rol": "Principal",
+    "apariciones": 3
+  },
+  {
+    "actor_id": 10,
+    "patrimonio_original": 130000,
+    "patrimonio_nuevo": 171600,
+    "rol": "Principal",
+    "apariciones": 3
+  },
+  {
+    "actor_id": 11,
+    "patrimonio_original": 3500000,
+    "patrimonio_nuevo": 4620000,
+    "rol": "Secundario",
+    "apariciones": 1
+  },
+  {
+    "actor_id": 12,
+    "patrimonio_original": 1100000,
+    "patrimonio_nuevo": 1452000,
+    "rol": "Secundario",
+    "apariciones": 1
+  },
+  {
+    "actor_id": 13,
+    "patrimonio_original": 270000,
+    "patrimonio_nuevo": 356400,
+    "rol": "Principal",
+    "apariciones": 3
+  },
+  {
+    "actor_id": 14,
+    "patrimonio_original": 310000,
+    "patrimonio_nuevo": 409200,
+    "rol": "Principal",
+    "apariciones": 3
+  },
+  {
+    "actor_id": 15,
+    "patrimonio_original": 8200000,
+    "patrimonio_nuevo": 10824000,
+    "rol": "Secundario",
+    "apariciones": 1
+  },
+  {
+    "actor_id": 16,
+    "patrimonio_original": 2300000,
+    "patrimonio_nuevo": 3036000,
+    "rol": "Secundario",
+    "apariciones": 1
+  },
+  {
+    "actor_id": 17,
+    "patrimonio_original": 160000,
+    "patrimonio_nuevo": 211200,
+    "rol": "Principal",
+    "apariciones": 3
+  },
+  {
+    "actor_id": 18,
+    "patrimonio_original": 4600000,
+    "patrimonio_nuevo": 6072000,
+    "rol": "Secundario",
+    "apariciones": 1
+  },
+  {
+    "actor_id": 19,
+    "patrimonio_original": 790000,
+    "patrimonio_nuevo": 1042800,
+    "rol": "Principal",
+    "apariciones": 3
+  },
+  {
+    "actor_id": 20,
+    "patrimonio_original": 220000,
+    "patrimonio_nuevo": 290400,
+    "rol": "Principal",
+    "apariciones": 3
+  },
+  {
+    "actor_id": 21,
+    "patrimonio_original": 970000,
+    "patrimonio_nuevo": 1280400,
+    "rol": "Secundario",
+    "apariciones": 1
+  },
+  {
+    "actor_id": 22,
+    "patrimonio_original": 2850000,
+    "patrimonio_nuevo": 3762000,
+    "rol": "Secundario",
+    "apariciones": 1
+  },
+  {
+    "actor_id": 23,
+    "patrimonio_original": 410000,
+    "patrimonio_nuevo": 541200,
+    "rol": "Principal",
+    "apariciones": 3
+  },
+  {
+    "actor_id": 100,
+    "patrimonio_original": 150000000,
+    "patrimonio_nuevo": 198000000,
+    "rol": "Principal",
+    "apariciones": 3
+  },
+  {
+    "actor_id": 101,
+    "patrimonio_original": 95000000,
+    "patrimonio_nuevo": 125400000,
+    "rol": "Principal",
+    "apariciones": 3
+  },
+  {
+    "actor_id": 102,
+    "patrimonio_original": 230000000,
+    "patrimonio_nuevo": 303600000,
+    "rol": "Secundario",
+    "apariciones": 1
+  },
+  {
+    "actor_id": 104,
+    "patrimonio_original": 420000000,
+    "patrimonio_nuevo": 554400000,
+    "rol": "Secundario",
+    "apariciones": 1
+  }
+]

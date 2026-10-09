@@ -1,0 +1,558 @@
+[
+  {
+    "actor": {
+      "actor_id": 0,
+      "edad": 25,
+      "fecha_nacimiento": "2001-04-12",
+      "idiomas": "SortedSet(['Espanol', 'Ingles'])",
+      "nacionalidad": "Chile",
+      "nombre": "Valentina Rojas",
+      "patrimonio": 180000
+    },
+    "copia_por_nacionalidad": {
+      "nacionalidad": "Chile",
+      "edad": 25,
+      "actor_id": 0,
+      "fecha_nacimiento": "2001-04-12",
+      "idiomas": "SortedSet(['Espanol', 'Ingles'])",
+      "nombre": "Valentina Rojas",
+      "patrimonio": 180000
+    },
+    "participaciones_sansa": []
+  },
+  {
+    "actor": {
+      "actor_id": 1,
+      "edad": 27,
+      "fecha_nacimiento": "1999-08-20",
+      "idiomas": "SortedSet(['Espanol'])",
+      "nacionalidad": "Chile",
+      "nombre": "Matias Fuentes",
+      "patrimonio": 95000
+    },
+    "copia_por_nacionalidad": {
+      "nacionalidad": "Chile",
+      "edad": 27,
+      "actor_id": 1,
+      "fecha_nacimiento": "1999-08-20",
+      "idiomas": "SortedSet(['Espanol'])",
+      "nombre": "Matias Fuentes",
+      "patrimonio": 95000
+    },
+    "participaciones_sansa": []
+  },
+  {
+    "actor": {
+      "actor_id": 2,
+      "edad": 37,
+      "fecha_nacimiento": "1989-02-14",
+      "idiomas": "SortedSet(['Espanol', 'Ingles'])",
+      "nacionalidad": "Chile",
+      "nombre": "Camila Soto",
+      "patrimonio": 350000
+    },
+    "copia_por_nacionalidad": {
+      "nacionalidad": "Chile",
+      "edad": 37,
+      "actor_id": 2,
+      "fecha_nacimiento": "1989-02-14",
+      "idiomas": "SortedSet(['Espanol', 'Ingles'])",
+      "nombre": "Camila Soto",
+      "patrimonio": 350000
+    },
+    "participaciones_sansa": []
+  },
+  {
+    "actor": {
+      "actor_id": 3,
+      "edad": 55,
+      "fecha_nacimiento": "1971-06-05",
+      "idiomas": "SortedSet(['Espanol', 'Ingles'])",
+      "nacionalidad": "Chile",
+      "nombre": "Diego Morales",
+      "patrimonio": 1200000
+    },
+    "copia_por_nacionalidad": {
+      "nacionalidad": "Chile",
+      "edad": 55,
+      "actor_id": 3,
+      "fecha_nacimiento": "1971-06-05",
+      "idiomas": "SortedSet(['Espanol', 'Ingles'])",
+      "nombre": "Diego Morales",
+      "patrimonio": 1200000
+    },
+    "participaciones_sansa": []
+  },
+  {
+    "actor": {
+      "actor_id": 4,
+      "edad": 60,
+      "fecha_nacimiento": "1965-11-23",
+      "idiomas": "SortedSet(['Espanol', 'Portugues'])",
+      "nacionalidad": "Chile",
+      "nombre": "Patricia Contreras",
+      "patrimonio": 2100000
+    },
+    "copia_por_nacionalidad": {
+      "nacionalidad": "Chile",
+      "edad": 60,
+      "actor_id": 4,
+      "fecha_nacimiento": "1965-11-23",
+      "idiomas": "SortedSet(['Espanol', 'Portugues'])",
+      "nombre": "Patricia Contreras",
+      "patrimonio": 2100000
+    },
+    "participaciones_sansa": []
+  },
+  {
+    "actor": {
+      "actor_id": 5,
+      "edad": 58,
+      "fecha_nacimiento": "1968-03-30",
+      "idiomas": "SortedSet(['Espanol'])",
+      "nacionalidad": "Chile",
+      "nombre": "Ricardo Sepulveda",
+      "patrimonio": 1750000
+    },
+    "copia_por_nacionalidad": {
+      "nacionalidad": "Chile",
+      "edad": 58,
+      "actor_id": 5,
+      "fecha_nacimiento": "1968-03-30",
+      "idiomas": "SortedSet(['Espanol'])",
+      "nombre": "Ricardo Sepulveda",
+      "patrimonio": 1750000
+    },
+    "participaciones_sansa": []
+  },
+  {
+    "actor": {
+      "actor_id": 6,
+      "edad": 23,
+      "fecha_nacimiento": "2003-07-17",
+      "idiomas": "SortedSet(['Espanol', 'Ingles'])",
+      "nacionalidad": "Argentina",
+      "nombre": "Luciana Fernandez",
+      "patrimonio": 75000
+    },
+    "copia_por_nacionalidad": {
+      "nacionalidad": "Argentina",
+      "edad": 23,
+      "actor_id": 6,
+      "fecha_nacimiento": "2003-07-17",
+      "idiomas": "SortedSet(['Espanol', 'Ingles'])",
+      "nombre": "Luciana Fernandez",
+      "patrimonio": 75000
+    },
+    "participaciones_sansa": []
+  },
+  {
+    "actor": {
+      "actor_id": 7,
+      "edad": 46,
+      "fecha_nacimiento": "1980-01-09",
+      "idiomas": "SortedSet(['Espanol'])",
+      "nacionalidad": "Argentina",
+      "nombre": "Martin Acosta",
+      "patrimonio": 830000
+    },
+    "copia_por_nacionalidad": {
+      "nacionalidad": "Argentina",
+      "edad": 46,
+      "actor_id": 7,
+      "fecha_nacimiento": "1980-01-09",
+      "idiomas": "SortedSet(['Espanol'])",
+      "nombre": "Martin Acosta",
+      "patrimonio": 830000
+    },
+    "participaciones_sansa": []
+  },
+  {
+    "actor": {
+      "actor_id": 8,
+      "edad": 55,
+      "fecha_nacimiento": "1970-09-15",
+      "idiomas": "SortedSet(['Espanol', 'Italiano'])",
+      "nacionalidad": "Argentina",
+      "nombre": "Gabriela Torres",
+      "patrimonio": 1450000
+    },
+    "copia_por_nacionalidad": {
+      "nacionalidad": "Argentina",
+      "edad": 55,
+      "actor_id": 8,
+      "fecha_nacimiento": "1970-09-15",
+      "idiomas": "SortedSet(['Espanol', 'Italiano'])",
+      "nombre": "Gabriela Torres",
+      "patrimonio": 1450000
+    },
+    "participaciones_sansa": []
+  },
+  {
+    "actor": {
+      "actor_id": 9,
+      "edad": 32,
+      "fecha_nacimiento": "1993-12-04",
+      "idiomas": "SortedSet(['Espanol', 'Ingles'])",
+      "nacionalidad": "Mexico",
+      "nombre": "Alejandro Ramirez",
+      "patrimonio": 520000
+    },
+    "copia_por_nacionalidad": {
+      "nacionalidad": "Mexico",
+      "edad": 32,
+      "actor_id": 9,
+      "fecha_nacimiento": "1993-12-04",
+      "idiomas": "SortedSet(['Espanol', 'Ingles'])",
+      "nombre": "Alejandro Ramirez",
+      "patrimonio": 520000
+    },
+    "participaciones_sansa": []
+  },
+  {
+    "actor": {
+      "actor_id": 10,
+      "edad": 26,
+      "fecha_nacimiento": "2000-03-28",
+      "idiomas": "SortedSet(['Espanol', 'Frances', 'Ingles'])",
+      "nacionalidad": "Mexico",
+      "nombre": "Daniela Castillo",
+      "patrimonio": 130000
+    },
+    "copia_por_nacionalidad": {
+      "nacionalidad": "Mexico",
+      "edad": 26,
+      "actor_id": 10,
+      "fecha_nacimiento": "2000-03-28",
+      "idiomas": "SortedSet(['Espanol', 'Frances', 'Ingles'])",
+      "nombre": "Daniela Castillo",
+      "patrimonio": 130000
+    },
+    "participaciones_sansa": []
+  },
+  {
+    "actor": {
+      "actor_id": 11,
+      "edad": 64,
+      "fecha_nacimiento": "1962-05-10",
+      "idiomas": "SortedSet(['Espanol', 'Ingles'])",
+      "nacionalidad": "Mexico",
+      "nombre": "Roberto Mendoza",
+      "patrimonio": 3500000
+    },
+    "copia_por_nacionalidad": {
+      "nacionalidad": "Mexico",
+      "edad": 64,
+      "actor_id": 11,
+      "fecha_nacimiento": "1962-05-10",
+      "idiomas": "SortedSet(['Espanol', 'Ingles'])",
+      "nombre": "Roberto Mendoza",
+      "patrimonio": 3500000
+    },
+    "participaciones_sansa": []
+  },
+  {
+    "actor": {
+      "actor_id": 12,
+      "edad": 48,
+      "fecha_nacimiento": "1978-07-11",
+      "idiomas": "SortedSet(['Catalan', 'Espanol', 'Ingles'])",
+      "nacionalidad": "Espana",
+      "nombre": "Carlos Navarro",
+      "patrimonio": 1100000
+    },
+    "copia_por_nacionalidad": {
+      "nacionalidad": "Espana",
+      "edad": 48,
+      "actor_id": 12,
+      "fecha_nacimiento": "1978-07-11",
+      "idiomas": "SortedSet(['Catalan', 'Espanol', 'Ingles'])",
+      "nombre": "Carlos Navarro",
+      "patrimonio": 1100000
+    },
+    "participaciones_sansa": []
+  },
+  {
+    "actor": {
+      "actor_id": 13,
+      "edad": 28,
+      "fecha_nacimiento": "1997-10-19",
+      "idiomas": "SortedSet(['Espanol', 'Frances', 'Ingles'])",
+      "nacionalidad": "Espana",
+      "nombre": "Elena Martinez",
+      "patrimonio": 270000
+    },
+    "copia_por_nacionalidad": {
+      "nacionalidad": "Espana",
+      "edad": 28,
+      "actor_id": 13,
+      "fecha_nacimiento": "1997-10-19",
+      "idiomas": "SortedSet(['Espanol', 'Frances', 'Ingles'])",
+      "nombre": "Elena Martinez",
+      "patrimonio": 270000
+    },
+    "participaciones_sansa": []
+  },
+  {
+    "actor": {
+      "actor_id": 14,
+      "edad": 24,
+      "fecha_nacimiento": "2002-01-07",
+      "idiomas": "SortedSet(['Espanol', 'Ingles'])",
+      "nacionalidad": "Estados Unidos",
+      "nombre": "Emily Carter",
+      "patrimonio": 310000
+    },
+    "copia_por_nacionalidad": {
+      "nacionalidad": "Estados Unidos",
+      "edad": 24,
+      "actor_id": 14,
+      "fecha_nacimiento": "2002-01-07",
+      "idiomas": "SortedSet(['Espanol', 'Ingles'])",
+      "nombre": "Emily Carter",
+      "patrimonio": 310000
+    },
+    "participaciones_sansa": []
+  },
+  {
+    "actor": {
+      "actor_id": 15,
+      "edad": 66,
+      "fecha_nacimiento": "1960-02-18",
+      "idiomas": "SortedSet(['Ingles'])",
+      "nacionalidad": "Estados Unidos",
+      "nombre": "Michael Thompson",
+      "patrimonio": 8200000
+    },
+    "copia_por_nacionalidad": {
+      "nacionalidad": "Estados Unidos",
+      "edad": 66,
+      "actor_id": 15,
+      "fecha_nacimiento": "1960-02-18",
+      "idiomas": "SortedSet(['Ingles'])",
+      "nombre": "Michael Thompson",
+      "patrimonio": 8200000
+    },
+    "participaciones_sansa": []
+  },
+  {
+    "actor": {
+      "actor_id": 16,
+      "edad": 42,
+      "fecha_nacimiento": "1984-06-25",
+      "idiomas": "SortedSet(['Frances', 'Ingles'])",
+      "nacionalidad": "Estados Unidos",
+      "nombre": "Sarah Williams",
+      "patrimonio": 2300000
+    },
+    "copia_por_nacionalidad": {
+      "nacionalidad": "Estados Unidos",
+      "edad": 42,
+      "actor_id": 16,
+      "fecha_nacimiento": "1984-06-25",
+      "idiomas": "SortedSet(['Frances', 'Ingles'])",
+      "nombre": "Sarah Williams",
+      "patrimonio": 2300000
+    },
+    "participaciones_sansa": []
+  },
+  {
+    "actor": {
+      "actor_id": 17,
+      "edad": 22,
+      "fecha_nacimiento": "2004-05-13",
+      "idiomas": "SortedSet(['Ingles', 'Japones'])",
+      "nacionalidad": "Japon",
+      "nombre": "Aiko Tanaka",
+      "patrimonio": 160000
+    },
+    "copia_por_nacionalidad": {
+      "nacionalidad": "Japon",
+      "edad": 22,
+      "actor_id": 17,
+      "fecha_nacimiento": "2004-05-13",
+      "idiomas": "SortedSet(['Ingles', 'Japones'])",
+      "nombre": "Aiko Tanaka",
+      "patrimonio": 160000
+    },
+    "participaciones_sansa": []
+  },
+  {
+    "actor": {
+      "actor_id": 18,
+      "edad": 51,
+      "fecha_nacimiento": "1974-09-29",
+      "idiomas": "SortedSet(['Ingles', 'Japones'])",
+      "nacionalidad": "Japon",
+      "nombre": "Kenji Nakamura",
+      "patrimonio": 4600000
+    },
+    "copia_por_nacionalidad": {
+      "nacionalidad": "Japon",
+      "edad": 51,
+      "actor_id": 18,
+      "fecha_nacimiento": "1974-09-29",
+      "idiomas": "SortedSet(['Ingles', 'Japones'])",
+      "nombre": "Kenji Nakamura",
+      "patrimonio": 4600000
+    },
+    "participaciones_sansa": []
+  },
+  {
+    "actor": {
+      "actor_id": 19,
+      "edad": 35,
+      "fecha_nacimiento": "1990-12-16",
+      "idiomas": "SortedSet(['Ingles', 'Japones'])",
+      "nacionalidad": "Japon",
+      "nombre": "Yuki Sato",
+      "patrimonio": 790000
+    },
+    "copia_por_nacionalidad": {
+      "nacionalidad": "Japon",
+      "edad": 35,
+      "actor_id": 19,
+      "fecha_nacimiento": "1990-12-16",
+      "idiomas": "SortedSet(['Ingles', 'Japones'])",
+      "nombre": "Yuki Sato",
+      "patrimonio": 790000
+    },
+    "participaciones_sansa": []
+  },
+  {
+    "actor": {
+      "actor_id": 20,
+      "edad": 28,
+      "fecha_nacimiento": "1998-03-22",
+      "idiomas": "SortedSet(['Espanol', 'Portugues'])",
+      "nacionalidad": "Brasil",
+      "nombre": "Lucas Oliveira",
+      "patrimonio": 220000
+    },
+    "copia_por_nacionalidad": {
+      "nacionalidad": "Brasil",
+      "edad": 28,
+      "actor_id": 20,
+      "fecha_nacimiento": "1998-03-22",
+      "idiomas": "SortedSet(['Espanol', 'Portugues'])",
+      "nombre": "Lucas Oliveira",
+      "patrimonio": 220000
+    },
+    "participaciones_sansa": []
+  },
+  {
+    "actor": {
+      "actor_id": 21,
+      "edad": 44,
+      "fecha_nacimiento": "1982-08-03",
+      "idiomas": "SortedSet(['Espanol', 'Ingles', 'Portugues'])",
+      "nacionalidad": "Brasil",
+      "nombre": "Mariana Costa",
+      "patrimonio": 970000
+    },
+    "copia_por_nacionalidad": {
+      "nacionalidad": "Brasil",
+      "edad": 44,
+      "actor_id": 21,
+      "fecha_nacimiento": "1982-08-03",
+      "idiomas": "SortedSet(['Espanol', 'Ingles', 'Portugues'])",
+      "nombre": "Mariana Costa",
+      "patrimonio": 970000
+    },
+    "participaciones_sansa": []
+  },
+  {
+    "actor": {
+      "actor_id": 22,
+      "edad": 54,
+      "fecha_nacimiento": "1972-04-08",
+      "idiomas": "SortedSet(['Espanol', 'Frances', 'Ingles'])",
+      "nacionalidad": "Francia",
+      "nombre": "Claire Dubois",
+      "patrimonio": 2850000
+    },
+    "copia_por_nacionalidad": {
+      "nacionalidad": "Francia",
+      "edad": 54,
+      "actor_id": 22,
+      "fecha_nacimiento": "1972-04-08",
+      "idiomas": "SortedSet(['Espanol', 'Frances', 'Ingles'])",
+      "nombre": "Claire Dubois",
+      "patrimonio": 2850000
+    },
+    "participaciones_sansa": []
+  },
+  {
+    "actor": {
+      "actor_id": 23,
+      "edad": 30,
+      "fecha_nacimiento": "1995-11-02",
+      "idiomas": "SortedSet(['Espanol', 'Ingles'])",
+      "nacionalidad": "Colombia",
+      "nombre": "Sebastian Vargas",
+      "patrimonio": 410000
+    },
+    "copia_por_nacionalidad": {
+      "nacionalidad": "Colombia",
+      "edad": 30,
+      "actor_id": 23,
+      "fecha_nacimiento": "1995-11-02",
+      "idiomas": "SortedSet(['Espanol', 'Ingles'])",
+      "nombre": "Sebastian Vargas",
+      "patrimonio": 410000
+    },
+    "participaciones_sansa": []
+  },
+  {
+    "actor": {
+      "actor_id": 100,
+      "edad": 30,
+      "fecha_nacimiento": "1996-05-15",
+      "idiomas": "SortedSet(['Espanol', 'Ingles'])",
+      "nacionalidad": "España",
+      "nombre": "Yoel Ramírez",
+      "patrimonio": 150000000
+    },
+    "copia_por_nacionalidad": null,
+    "participaciones_sansa": []
+  },
+  {
+    "actor": {
+      "actor_id": 101,
+      "edad": 28,
+      "fecha_nacimiento": "1998-03-12",
+      "idiomas": "SortedSet(['Espanol', 'Ingles'])",
+      "nacionalidad": "Chile",
+      "nombre": "Camila Torres",
+      "patrimonio": 95000000
+    },
+    "copia_por_nacionalidad": null,
+    "participaciones_sansa": []
+  },
+  {
+    "actor": {
+      "actor_id": 102,
+      "edad": 41,
+      "fecha_nacimiento": "1985-07-24",
+      "idiomas": "SortedSet(['Espanol', 'Portugues'])",
+      "nacionalidad": "Mexico",
+      "nombre": "Diego Morales",
+      "patrimonio": 230000000
+    },
+    "copia_por_nacionalidad": null,
+    "participaciones_sansa": []
+  },
+  {
+    "actor": {
+      "actor_id": 104,
+      "edad": 52,
+      "fecha_nacimiento": "1974-02-19",
+      "idiomas": "SortedSet(['Espanol', 'Frances', 'Ingles'])",
+      "nacionalidad": "España",
+      "nombre": "Javier Ortega",
+      "patrimonio": 420000000
+    },
+    "copia_por_nacionalidad": null,
+    "participaciones_sansa": []
+  }
+]
